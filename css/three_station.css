@@ -1,0 +1,128 @@
+body {
+	/* background-image: url("../img/css_zapolnenie.jpg"); */
+	background: linear-gradient(to bottom, #FFFACD, #F9F6DE);
+	margin: 0 auto;
+	background-color: #ffffcc;
+	
+}
+
+.header {
+	background-color: #38E801;
+	display: flex;
+	height: 195px;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.textForHead {
+	font-size: 10.5em;
+	color: #FFE12B;
+	font-family: impact;
+	cursor: default;
+	text-shadow: 3px 3px 10px black;
+}
+
+.imgForHead {
+	height: 190px;
+}
+
+#nav {
+	background-color: #38C501;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+}
+
+.navig {
+	margin: 10px 0;
+	width: 15%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 1.22em;
+}
+
+.navigHere {
+	margin: 10px 0;
+	width: 15%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 1.22em;
+	font-weight: 600;
+}
+
+.textJS{
+	
+}
+
+article {
+	background-color: #FFF;
+	width: 980px;
+	margin: 20px auto 40px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+	box-shadow: 0 0 25px 8px rgba(0,0,0,0.6);
+}
+
+p {
+	padding: 10px 60px 10px 60px;
+}
+
+.linkforgame{
+	padding: 20px 50px 20px 50px
+}
+
+footer {
+	background: linear-gradient(to bottom, #3AEE01, #A2F987);
+	border-top: 1px solid black;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+footer p {
+	font-size: 15px;
+}
+
+.upbutton {
+	width: 100px;
+    background: #f7f7f7;
+    padding: 10px;
+	text-decoration: none;
+    color:#333;
+    font-family: verdana;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+h1 {
+	padding-left: 50px;
+	padding-top: 15px;
+	font-size: 1.7em;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-bottom: 15px;
+}
+
+h2 {
+	padding-left: 30px;
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p, li, a {
+	text-indent: 20px;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+}
+

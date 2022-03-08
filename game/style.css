@@ -1,0 +1,65 @@
+.game {
+	
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}    
+
+.border {
+    z-index: -15;
+    position: absolute;
+    top: 9px;
+    background-color: #006561;
+    left: 39px;
+    width: 510px;
+    height: 581px;
+    border: 2px solid #001100;
+}
+
+button {
+    border-radius: 10px;
+    padding: 7px;
+    background: liner-gradient(to top, #FFFAFA, #8B8682);
+    font-weight: 600;
+}
+
+.buttons {
+    margin: 20px 10px 20px 140px;
+}
+
+#score {
+    margin-left: 72px;
+    font-size: 31px;
+    color: #FF7100;
+    text-shadow: 0 0 6px #010;
+}
+
+.field{
+    z-index: 30;            
+    height: 23px;
+    margin-left: 53px;
+}
+.cell{
+    margin: 0;
+    display: inline-block;
+    background-color: #FFBE40;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #010;
+    border-radius: 4px;
+    z-index: 30;
+}
+
+.snake{
+    background-color: green;
+    z-index: 30;
+}
+
+.food{
+    background-color:#FF0000;
+    z-index: 30;
+}

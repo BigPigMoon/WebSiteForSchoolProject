@@ -1,0 +1,158 @@
+body {
+	/* background-image: url("../img/css_zapolnenie.jpg"); */
+	background: linear-gradient(to bottom, #FFFACD, #F9F6DE);
+	margin: 0 auto;
+	background-color: #ffffcc;
+	
+}
+
+.header {
+	background-color: #38E801;
+	display: flex;
+	height: 195px;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.textForHead {
+	font-size: 10.5em;
+	color: #0194FD;
+	font-family: impact;
+	cursor: default;
+	text-shadow: 3px 3px 10px black;
+}
+
+.imgForHead {
+	width: 195px;
+}
+
+#nav {
+	background-color: #38C501;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+}
+
+.navig {
+	margin: 10px 0;
+	width: 15%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 1.22em;
+}
+
+.navigHere {
+	margin: 10px 0;
+	width: 15%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEE;
+	font-size: 1.22em;
+	font-weight: 600;
+}
+
+article {
+	background-color: #FFF;
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	box-shadow: 15px 15px 15px 8px rgba(0,0,0,0.6);
+}
+
+section {
+	padding: 10px 50px 10px 50px;
+}
+
+.sintax {
+	padding-top: 30px;
+	clear: left;
+}
+
+.sintax ol {
+	margin-left: 40px;
+}
+
+figure {
+	float: left;
+	margin-right: 40px;
+	border: 1px solid black;
+	background-color: #BBB;
+	border-radius: 5%;
+	box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+figure img {
+	display: block;
+	margin: auto;
+	padding: 20px;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+}
+
+.animation_text{
+	height: 200px;
+}
+
+#animat {
+	margin: 20px;
+}
+
+footer {
+	background: linear-gradient(to bottom, #3AEE01, #A2F987);
+	border-top: 1px solid black;
+	width: 100%;
+	margin: auto;
+	padding: 20px 0;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+footer p {
+	font-size: 15px;
+}
+
+.upbutton {
+	width: 100px;
+    background: #f7f7f7;
+    padding: 10px;
+	text-decoration: none;
+    color:#333;
+    font-family: verdana;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+h1 {
+	padding-left: 50px;
+	padding-top: 15px;
+	font-size: 1.7em;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-bottom: 15px;
+}
+
+h2 {
+	padding-left: 30px;
+	font-size: 1.6em;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p, li, a {
+	text-indent: 20px;
+	font-size: 1.2em;
+	font-family: Georgia, serif;
+}
+
+
